@@ -1,29 +1,15 @@
 package com.chatback21.pojos.converation;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
-import javax.annotation.Generated;
+import java.util.LinkedList;
 import java.util.List;
 
-@Generated("com.robohorse.robopojogenerator")
-public class Log{
+import lombok.Builder;
+import lombok.Data;
 
-	@JsonProperty("messages")
-	private List<MessagesItem> messages;
+@Data
+@Builder
+public class Log {
 
-	public void setMessages(List<MessagesItem> messages){
-		this.messages = messages;
-	}
+	private List<MessagesItem> messages = new LinkedList<>();
 
-	public List<MessagesItem> getMessages(){
-		return messages;
-	}
-
-	@Override
- 	public String toString(){
-		return 
-			"Log{" + 
-			"messages = '" + messages + '\'' + 
-			"}";
-		}
 }

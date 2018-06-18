@@ -1,28 +1,12 @@
 package com.chatback21.pojos.converation;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Builder;
+import lombok.Data;
 
-import javax.annotation.Generated;
+@Data
+@Builder
+public class MessagesItem {
 
-@Generated("com.robohorse.robopojogenerator")
-public class MessagesItem{
-
-	@JsonProperty("message")
 	private Message message;
 
-	public void setMessage(Message message){
-		this.message = message;
-	}
-
-	public Message getMessage(){
-		return message;
-	}
-
-	@Override
- 	public String toString(){
-		return 
-			"MessagesItem{" + 
-			"message = '" + message + '\'' + 
-			"}";
-		}
 }
