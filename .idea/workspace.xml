@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4cb6859-8755-43a6-b221-9cdea52e7ddd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chatback/broker/DatabaseBroker.java" afterPath="$PROJECT_DIR$/src/main/java/com/chatback/broker/DatabaseBroker.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,7 +33,7 @@
             <state relative-caret-position="40">
               <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
               <folding>
-                <marker date="1530025793266" expanded="true" signature="63903:63918" ph="..." />
+                <marker date="1530063857701" expanded="true" signature="64183:64198" ph="..." />
               </folding>
             </state>
           </provider>
@@ -44,8 +42,8 @@
       <file leaf-file-name="DatabaseBroker.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chatback/broker/DatabaseBroker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="39" column="12" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state relative-caret-position="1120">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -614,7 +612,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529466387563</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="spring">
+      <created>1530025847609</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1530025847609</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -650,7 +655,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29693000" />
+    <option name="totallyTimeSpent" value="29710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
@@ -977,7 +982,7 @@
         <state relative-caret-position="40">
           <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
           <folding>
-            <marker date="1530025793266" expanded="true" signature="63903:63918" ph="..." />
+            <marker date="1530063857701" expanded="true" signature="64183:64198" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1024,8 +1029,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chatback/broker/DatabaseBroker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="39" column="12" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        <state relative-caret-position="1120">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
