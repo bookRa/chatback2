@@ -4,11 +4,11 @@ package com.chatback;
 import com.chatback.utils.Caller;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpMethod;
-import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringRunner.class)
+//@RunWith(SpringApplication.class)
 @SpringBootTest
 public class ApplicationTests {
 
